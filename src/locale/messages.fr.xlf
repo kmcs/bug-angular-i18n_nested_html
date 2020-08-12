@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US" trgLang="fr">
+  <file original="ng.template" id="ngi18n">
+    <unit id="introductionHeader">
+      <notes>
+        <note category="description">An introduction header for this sample</note>
+        <note category="meaning">User welcome</note>
+        <note category="location">src/app/app.component.html:1,3</note>
+      </notes>
+      <segment>
+        <source>
+  Hello i18n!
+</source>
+        <target>
+  Hello i18n!
+</target>
+      </segment>
+    </unit>
+    <unit id="translation_with_nested_html">
+      <notes>
+        <note category="location">src/app/app.component.html:5,7</note>
+      </notes>
+      <segment>
+        <source>
+  <pc id="0" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">THIS PHRASE IS MISSING <pc id="1" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">my bold text</pc> other phrase of this paragraph.</pc>
+</source>
+<target>
+
+<pc id="0" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;">THIS CETTE PHRASE EST MANQUANTE <pc id="1" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">mon texte en gras</pc> autre phrase de ce paragraphe.</pc>
+</target>
+      </segment>
+    </unit>
+    <unit id="392942015236586892">
+      <notes>
+        <note category="location">src/app/app.component.html:11</note>
+      </notes>
+      <segment>
+        <source>Angular logo</source>
+                <target>
+ Angular logo
+</target>
+      </segment>
+    </unit>
+    <unit id="3813479775021432189">
+      <notes>
+        <note category="location">src/app/app.component.html:14</note>
+      </notes>
+      <segment>
+        <source>Updated <ph id="0" equiv="ICU" disp="{minutes, plural, =0 {...} =1 {...} other {...}}"/></source>
+                        <target>
+Updated <ph id="0" equiv="ICU" disp="{minutes, plural, =0 {...} =1 {...} other {...}}"/>
+</target>
+      </segment>
+    </unit>
+    <unit id="6137860789874441254">
+      <notes>
+        <note category="location">src/app/app.component.html:14</note>
+      </notes>
+      <segment>
+        <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<ph id="0" equiv="INTERPOLATION" disp="{{minutes}}"/> minutes ago} }</source>
+        
+        
+        <target>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<ph id="0" equiv="INTERPOLATION" disp="{{minutes}}"/> minutes ago} }</target>
+      </segment>
+    </unit>
+    <unit id="8511147241295446916">
+      <notes>
+        <note category="location">src/app/app.component.html:18</note>
+      </notes>
+      <segment>
+        <source>The author is <ph id="0" equiv="ICU" disp="{gender, select, male {...} female {...} other {...}}"/></source>
+                <target>The author is <ph id="0" equiv="ICU" disp="{gender, select, male {...} female {...} other {...}}"/></target>
+      </segment>
+    </unit>
+    <unit id="7842238767399919809">
+      <notes>
+        <note category="location">src/app/app.component.html:18</note>
+      </notes>
+      <segment>
+        <source>{VAR_SELECT, select, male {male} female {female} other {other} }</source>
+        <target>{VAR_SELECT, select, male {male} female {female} other {other} }</target>
+      </segment>
+    </unit>
+    <unit id="3574833283807905682">
+      <notes>
+        <note category="location">src/app/app.component.html:20,24</note>
+      </notes>
+      <segment>
+        <source>Updated: <ph id="0" equiv="ICU" disp="{minutes, plural, =0 {...} =1 {...} other {...}}"/>
+</source>
+<target>Updated: <ph id="0" equiv="ICU" disp="{minutes, plural, =0 {...} =1 {...} other {...}}"/>
+</target>
+      </segment>
+    </unit>
+    <unit id="706522873846283432">
+      <notes>
+        <note category="location">src/app/app.component.html:20,23</note>
+      </notes>
+      <segment>
+        <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<ph id="0" equiv="INTERPOLATION" disp="{{minutes}}"/> minutes ago by {VAR_SELECT, select, male {male} female {female} other {other} }} }</source>
+        <target>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<ph id="0" equiv="INTERPOLATION" disp="{{minutes}}"/> minutes ago by {VAR_SELECT, select, male {male} female {female} other {other} }} }</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
